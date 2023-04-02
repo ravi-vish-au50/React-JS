@@ -2,6 +2,7 @@ import React from "react";
 
 class ClassComponent extends React.Component {
     constructor(props) {
+        console.log()
         super(props);
 
         this.state = {
@@ -22,6 +23,7 @@ class ClassComponent extends React.Component {
                 <h1>This is the class base Component</h1>
                 <p>My current sate of counter is:{counter} test</p>
                 <button className='btn' onClick={this.updateCounter}>increase count for class</button>
+                <button className='btn' onClick={this.sampleFun}>increase count for class</button>     
             </>
         )
     }

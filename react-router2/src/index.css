@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;700&display=swap');
+@import url('bootstrap/dist/css/bootstrap.min.css');
+
+:root{
+  --primary:#bc4123;
+  --secondary:#36c5de;
+}
+body{
+  margin: 0;
+  font-family: "Poppins";
+  background:var(--secondary);
+}
+*{
+  color: #FFF;
+  margin: 0;
+
+}
+P{
+  margin: 20px 0;
+
+}
+button{
+  border: 0;
+  padding: 8px;
+  border: radius 4px;
+  color: white;
+  background: var(--primary);
+  cursor: pointer;
+}
+.navbar-nav a{
+  margin: 0 10px;
+  text-decoration: none;
+}
